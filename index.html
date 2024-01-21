@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elden Ring</title>
+
+    <link rel="stylesheet" href="../src/style/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="#"
+          ><img src="./src/img/logo.png" alt="photo"
+        /></a>
+        <nav>
+          <ul>
+            <li class="items">Items</li>
+            <li class="classes">Talismans</li>
+            <li class="bosses">Bosses</li>
+            <li class="ashes">Ashes of War</li>
+            <li class="incantations">Incantations</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="main-section">
+      <div class="main-info">
+        <p class="text">
+          Discover greatest challenges in Dark and Mystery world of Elden ...
+        </p>
+      </div>
+    </section>
+    <main>
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <div id="title"></div>
+      <div class="main">
+        <div class="modal-overlay" id="modalOverlay">
+          <div class="modal">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <div id="modalContent">
+              <img src="" alt="" class="img-main item" />
+              <div class="desc-info item">
+                <p>Name: <span class="name"></span> <br /></p>
+                <p>Description: <span class="description"></span> <br /></p>
+
+                <p>Health points: <span class="health"></span> <br /></p>
+                <p>Loot: <span class="drops"></span></p>
+                <p>Location: <span class="location"></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-container"></div>
+      </div>
+    </main>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
